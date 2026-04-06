@@ -47,7 +47,7 @@ function MovieForm({ onAddMovie }) {
         min="1900"
         max="2026"
       />
-      <button type="submit">➕ Добавить фильм</button>
+      <button type="submit"> Добавить фильм</button>
     </form>
   );
 }

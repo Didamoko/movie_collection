@@ -1,7 +1,7 @@
 function EmptyState() {
   return (
     <div className="empty-state">
-      🎬 Фильмов пока нет...
+       Фильмов пока нет...
       <p>Добавьте первый фильм с помощью формы выше!</p>
     </div>
   );

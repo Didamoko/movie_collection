@@ -19,13 +19,13 @@ function MovieCard({ movie, onDelete, onUpdateRating }) {
     <div className="movie-card">
       <div className="movie-info">
         <h3>{movie.title}</h3>
-        <p>🎭 {movie.genre} | 📅 {movie.year}</p>
+        <p> {movie.genre} | {movie.year}</p>
         <div className="rating">
           Рейтинг: {renderStars()}
         </div>
       </div>
       <button className="delete-btn" onClick={() => onDelete(movie.id)}>
-        🗑️ Удалить
+         Удалить
       </button>
     </div>
   );

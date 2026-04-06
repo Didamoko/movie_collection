@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🎬 Моя коллекция фильмов</h1>
+      <h1> Моя коллекция фильмов</h1>
       
       <MovieForm onAddMovie={addMovie} />
       

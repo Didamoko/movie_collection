@@ -5,7 +5,7 @@ function Filter({ filterGenre, setFilterGenre, searchQuery, setSearchQuery }) {
     <div className="filter-section">
       <input
         type="text"
-        placeholder="🔍 Поиск по названию..."
+        placeholder="Поиск по названию..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
         className="search-input"
